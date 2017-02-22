@@ -1,0 +1,31 @@
+.introductory-banner{
+  background-color: orangered;
+  width:100%;
+}
+
+.introductory-text{
+  color: white;
+}
+
+.larger-text{
+  font-size: 40px;
+}
+
+.intermediate-text {
+  color: saddlebrown
+}
+
+.closing-banner{
+  background-color: orangered;
+  width: 100%;
+  color: white;
+  text-decoration: underline;
+}
+
+.item-title{
+font-size: 20px
+}
+
+.closing-text{
+  color: saddlebrown
+}
