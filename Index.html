@@ -4,66 +4,147 @@
     <meta charset="utf-8">
     <title>Quick Sneakers Webpage</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
 
-<div>
-  <img src="logo.jpg" alt="">
-</div>
+<header>
+    <div>
+      <img class="logo" src="logo.jpg" alt="Quick Sneakers Logo">
+    </div>
+  <nav>
+    <span class="nav-bar-item">MEN</span>
+<span class="nav-bar-item">
+    <span class="selected-tab">WOMEN</span>
+</span>
+    <span class="nav-bar-item">BOYS</span>
+    <span class="nav-bar-item">GIRLS</span>
+    <span class="nav-bar-item">CUSTOMIZE</span>
+  </nav>
+  <span class="secondary-nav-bar">Help</span>
+  <span class="secondary-nav-bar">My Account</span>
+  <span class="secondary-nav-bar"><span class="glyphicon glyphicon-shopping-cart"></span>Shopping Cart(2)</span>
+</header>
 
 <section class="introductory-banner">
+  <div class="back-to-shoes">&larr; BACK TO ALL SHOES</div>
   <div>
-    <a href="http://www.google.com"> &larr; Back To All Shoes</a>
-    <img src="shoe1.png" alt="">
+    <img class="selected-shoe" src="shoe1.png" alt="Graphic Display of Shoe">
   </div>
   <div class="introductory-text">
     <h1 class="larger-text">Quick Sneakers</h1>
-    <div>ursus sed a a adipiscing molestie a est ridiculus aptent etiam netus quis adipiscing bibendum eleifend parturient aptent a a vulputate name justo nec nam scelerisque.
-    <a href="http://google.com">Read The Reviews</a>
+    <div class="sub-header">SPRING/SUMMER 2017</div>
+    <div class="latin">ursus sed a a adipiscing molestie a est ridiculus aptent etiam netus quis adipiscing bibendum eleifend parturient aptent a a vulputate name justo nec nam scelerisque.
+    <a class="review-link" href="http://google.com">Read The Reviews</a>
   </div>
-  <p>
-    <div>$120.00</div>
+  <div class="dollar-sign-and-cent-price">
+    <span class="dollar-sign">$</span>
+    <span class="cent-price">00</span>
   </div>
-    <a href="http://google.com">Buy Now!</a>
-  </p>
+  <div class="sale-link">
+    <span class="dollar-price">120</span>
+    <span class="sale-button">BUY NOW!</span>
   </div>
 </section>
 
-
-<section class="intermediate-text">
-  <h2>Exciting Topic</h2>
-    <div>Content here</div>
-  <h2>Find Your Shoe Size & Fit</h2>
-    <div>Content here</div>
-  <h2> What Our Customers Are Saying!</h2>
-    <div>Don't take our word for it! Read what our customers are saying about this product. We guarantee you won't be disappointed in your purchase.
-  <h2>Shop Recommended Shoes</h2>
+<section class="product-details">
+  <nav>
+    <span class="product-tab">Product Details</span>
+    <span class="size-tab"> Size & Fit</span>
+  <span class="reviews-tab">Reviews
+    <span class="rating">
+    <span>☆ </span>
+    <span>☆ </span>
+    <span>☆ </span>
+    <span>☆ </span>
+    <span>☆ </span>
+    </span>
+  </span>
 </section>
 
-<section class="closing-banner">
-  <img src="shoe2.png" alt="">
-  <div class="item-title">Funny Sneakers</div>
-    <p>
-      <a href="http://google.com">$120.00</a>
-    </p>
-  <img src="shoe3.png" alt="">
-  <div class="item-title">Funny Sneakers</div>
-    <p>
-      <a href="http://google.com">$120.00</a>
-    </p>
-    <img src="shoe4.png" alt="">
-  <div class="item-title">Funny Sneakers</div>
-    <p>
-      <a href="http://google.com">$120.00</a>
-    </p>
+<section class="descriptive-text">
+  <div class="topic-header-1">Exciting Topic</div>
+  <div class="content-here">Content here</div>
+  <div class="topic-header-2">Exciting Topic</div>
+  <div class="content-here">Content Here</div>
+
+  <div class="shoe-size">
+    <div class="shoe-size-header">Find Your Shoe Size & Fit!</div>
+    <div class="content-here">Content here</div>
+  </div>
+
+  <div class="customer-reviews">
+    <div class="customer-review-header">What Our Customers Are Saying!</div>
+    <div class="customer-review-text">Don't take our word for it! Read what our customers have been saying about this product. We guarantee you won't be disappointed in your purchase.</div>
+  </div>
 </section>
 
-<div class="closing-text">
-  <img src="logo.jpg" alt="">
-  <a href="http://google.com">Shipping</a> &#124;
-  <a href="http://google.com">Terms & Conditions</a> &#124;
-  &copy; Copyright 2017. Sneaker Shop, LLC.
-</div>
+<div class="store-banner">Shop Recommended Shoes</div>
 
   </body>
 </html>
+
+
+<section class="store-body">
+  <div>
+    <img class="shoe-display" src="shoe2.png" alt="Graphic Display of Shoe">
+  </div>
+    <div class="sneaker-title">Funny Sneakers</div>
+    <div class="store-sub-header">SPRING/SUMMER 2017</div>
+    <div class="store-price">
+    <span class="dollar-sign">$</span>
+    <span class="cent-price">00</span>
+  </div>
+    <div class="price-value">
+      <span class="store-price-2">120</span>
+    </div>
+
+  <div>
+    <img class="shoe-display" src="shoe3.png" alt="Graphic Display of Shoe">
+  </div>
+    <div class="sneaker-title">Nimble Sneakers</div>
+    <div class="store-sub-header">SPRING/SUMMER 2017</div>
+    <div class="store-price">
+    <span class="dollar-sign">$</span>
+    <span class="cent-price">00</span>
+  </div>
+    <div class="price-value">
+      <span class="store-price-2">120</span>
+    </div>
+
+<div>
+  <img class="shoe-display" src="shoe4.png" alt="Graphic Display of Shoe">
+</div>
+  <div class="sneaker-title">Cute Sneakers</div>
+  <div class="store-sub-header">SPRING/SUMMER 2017</div>
+  <div class="store-price">
+  <span class="dollar-sign">$</span>
+  <span class="cent-price">00</span>
+</div>
+  <div class="price-value">
+    <span class="store-price-2">120</span>
+  </div>
+</section>
+
+<section class="closing-banner">
+  <div>
+    <img class="logo" src="logo.jpg" alt="Quick Sneakers Logo">
+  </div>
+  <nav>
+    <span class="nav-bar-item">Men</span>
+  <span class="nav-bar-item">
+    <span class="selected-tab">Women</span>
+  </span>
+    <span class="nav-bar-item">Boys</span>
+    <span class="nav-bar-item">Girls</span>
+    <span class="nav-bar-item">Customize</span>
+  <div class="closing-text">
+    <span class="shipping-and-terms">Shipping</span>
+    &#124; <span class="shipping-and-terms">Terms & Conditions</span>
+    &#124; <span>&copy; Copyright 2017. Sneaker Shop, LLC.</span>
+  </div>
+  </nav>
+</section>

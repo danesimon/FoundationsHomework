@@ -1,31 +1,262 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: helvetica, sans-serif;
+}
+
+.logo{
+  margin: 10px;
+  width: 50px;
+}
+
+header{
+  margin: 10px
+}
+
+.nav-bar-item{
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  color: rgb(255, 92, 51);
+}
+
+.selected-tab{
+  padding-bottom: 4px;
+  color: brown;
+  border-bottom: solid 3px pink;
+}
+
+.secondary-nav-bar{
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  color: pink;
+}
+
+.back-to-shoes{
+  color: white;
+  margin-left: 22%;
+  margin-right: 28%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 .introductory-banner{
-  background-color: orangered;
-  width:100%;
+  background-color: rgb(255, 92, 51);
+  padding-top: 20px;
+}
+
+.larger-text{
+  line-height: 30px;
+}
+
+.sub-header{
+  color: brown;
+  margin-bottom: 35px;
 }
 
 .introductory-text{
   color: white;
+  margin-left: 22%;
+  margin-right: 28%;
+  margin-top: 30px;
 }
 
-.larger-text{
-  font-size: 40px;
+.latin{
+  font-size: 16px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-top: 2px dashed brown;
+  border-bottom: 2px dashed brown;
+  line-height: 30px
 }
 
-.intermediate-text {
-  color: saddlebrown
-}
-
-.closing-banner{
-  background-color: orangered;
-  width: 100%;
-  color: white;
+.review-link{
+  color: brown;
   text-decoration: underline;
 }
 
-.item-title{
-font-size: 20px
+
+.selected-shoe{
+  margin-left: 22%;
+  margin-right: 28%;
+  margin-bottom: 35px;
+  width: 50%;
+}
+
+.dollar-sign-and-cent-price{
+  color: white;
+  margin-top: 35px;
+  line-height: 0px;
+}
+
+.dollar-sign{
+  padding-right: 25px;
+}
+
+.cent-price{
+  padding-left: 25px;
+}
+
+.sale-link{
+  margin-top: 0px;
+  padding-bottom: 40px;
+  transform: translate(10px,-15px);
+}
+
+.dollar-price{
+  color: white;
+  font-size: 30px;
+  margin-right: 25px;
+}
+
+.sale-button{
+  font-size: 17.5px;
+  color: rgb(255, 92, 51);
+  margin-left: 25px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px 25px;
+}
+
+.product-details{
+  margin-top: 40px;
+  margin-left: 22%;
+  margin-right: 28%;
+  margin-bottom: 40px;
+  padding: 0px 0px 10px 0px;
+  border-bottom: solid thin pink;
+}
+
+.product-tab{
+  font-size: 20px;
+  color: brown;
+  padding: 0px 0px 10px 0px;
+  border-bottom: solid 3px pink;
+}
+
+.size-tab{
+  font-size: 20px;
+  color: rgb(255, 92, 51);
+  padding: 0px 10px 10px 20px;
+}
+
+.reviews-tab{
+  font-size: 15px;
+  color: pink;
+  padding: 0px 0px 10px 10px;
+}
+
+.rating > span {
+  display: inline-block;
+  position: relative;
+}
+.rating:hover > span:before{
+   content: "\2605";
+   position: absolute;
+}
+.rating > span:hover ~ span:before {
+   content: "";
+}
+
+.descriptive-text{
+  margin-left: 22%;
+  margin-right: 28%;
+  margin-bottom: 80px;
+}
+
+.topic-header-1{
+  color:rgb(51, 26, 0);
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.topic-header-2{
+  color: rgb(51, 26, 0);
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px
+}
+
+.shoe-size{
+  margin: 50px 0px;
+}
+
+.shoe-size-header{
+  color: rgb(51, 26, 0);
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.customer-review-header{
+  color: rgb(51, 26, 0);
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.customer-review-text{
+  color: rgb(128, 66, 0);
+  font-size: 16px;
+  line-height: 27.5px;
+}
+
+.content-here{
+  color: rgb(128, 66, 0);
+  font-size: 16px;
+}
+
+.store-banner{
+  color:rgb(51, 26, 0);
+  font-size: 30px;
+  padding: 15px 18% 15px 32%;
+  background-color: rgb(255, 235, 230);
+}
+
+.store-body{
+  background-color: rgb(255, 92, 51);
+  padding: 25px 25% 30px 25%
+}
+
+.sneaker-title{
+  padding-top: 20px;
+  color: white;
+  font-size: 25px;
+}
+
+.store-sub-header{
+  color:brown;
+  margin-bottom: 0px;
+}
+
+.store-price{
+  color: white;
+  margin: 10px 0px 0px 0px;
+  padding: 0px
+}
+
+.store-price-2{
+  color: white;
+  font-size: 30px;
+}
+
+.price-value{
+  transform: translate(9px,-25px)
+}
+
+.closing-banner{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 
 .closing-text{
-  color: saddlebrown
+  padding-left: 10px;
+  padding-top: 0px;
+  color: rgb(128, 66, 0);
+}
+
+.shipping-and-terms{
+  text-decoration: underline;
 }
