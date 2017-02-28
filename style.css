@@ -1,67 +1,73 @@
-body{
-  margin: 0;
-  padding: 0;
-  font-family: helvetica, sans-serif;
+.webpage{
+  font-family: 'Asap', sans-serif;
 }
 
 .logo{
-  margin: 10px;
+  margin: 20px 10px 20px 20px;
   width: 50px;
 }
 
-header{
-  margin: 10px
+.nav-bar{
+  margin: 40;
 }
 
 .nav-bar-item{
-  display: inline-block;
-  text-align: center;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  color: rgb(255, 92, 51);
+  margin-right: 10px;
+  color: rgb(255, 88, 55);
 }
 
 .selected-tab{
   padding-bottom: 4px;
-  color: brown;
+  color: rgb(165, 42, 42);
   border-bottom: solid 3px pink;
 }
 
 .secondary-nav-bar{
-  font-weight: bold;
-  display: inline-block;
-  margin-left: 10px;
-  margin-bottom: 20px;
-  color: pink;
+  margin-left: 20px;
+  color: rgb(255, 149, 150);
+}
+
+.help-menu{
+  margin-left: 750px;
+}
+
+.introductory-banner{
+  background: linear-gradient(to right, rgb(222, 37, 116), rgb(255, 81, 47));
 }
 
 .back-to-shoes{
   color: white;
-  margin-left: 22%;
-  margin-right: 28%;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  padding-top: 30px;
+  margin-bottom: 30px;
 }
 
-.introductory-banner{
-  background-color: rgb(255, 92, 51);
-  padding-top: 20px;
+.selected-shoe{
+  width: 600px;
+  margin-bottom: 100px;
+}
+
+.banner-left{
+  display: inline-block;
+  margin-left: 200px;
+}
+
+.banner-right{
+  float:right;
+  display: inline-block;
+  color: white;
+  width: 400px;
+  margin-top: 50px;
+  margin-right: 200px;
 }
 
 .larger-text{
-  line-height: 30px;
+  line-height: 40px;
+  font-size: 45px;
 }
 
 .sub-header{
   color: brown;
   margin-bottom: 35px;
-}
-
-.introductory-text{
-  color: white;
-  margin-left: 22%;
-  margin-right: 28%;
-  margin-top: 30px;
 }
 
 .latin{
@@ -76,14 +82,7 @@ header{
 .review-link{
   color: brown;
   text-decoration: underline;
-}
-
-
-.selected-shoe{
-  margin-left: 22%;
-  margin-right: 28%;
-  margin-bottom: 35px;
-  width: 50%;
+  margin-left: 175px;
 }
 
 .dollar-sign-and-cent-price{
@@ -121,10 +120,15 @@ header{
   padding: 15px 25px;
 }
 
+.sale-button:hover{
+
+}
+
+
 .product-details{
   margin-top: 40px;
-  margin-left: 22%;
-  margin-right: 28%;
+  margin-left: 200px;
+  margin-right: 22%;
   margin-bottom: 40px;
   padding: 0px 0px 10px 0px;
   border-bottom: solid thin pink;
@@ -162,8 +166,8 @@ header{
 }
 
 .descriptive-text{
-  margin-left: 22%;
-  margin-right: 28%;
+  margin-left: 200px;
+  margin-right: 22%;
   margin-bottom: 80px;
 }
 
@@ -210,13 +214,32 @@ header{
 .store-banner{
   color:rgb(51, 26, 0);
   font-size: 30px;
-  padding: 15px 18% 15px 32%;
+  padding: 15px 25% 15px 35%;
   background-color: rgb(255, 235, 230);
 }
 
 .store-body{
-  background-color: rgb(255, 92, 51);
-  padding: 25px 25% 30px 25%
+  background: linear-gradient(to right, #ff0066, #ff5c33);
+}
+
+.shoe-display{
+  width: 300px;
+}
+
+
+.funny-sneaker{
+  float: left;
+  margin-left: 200px;
+}
+
+.nimble-sneaker{
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.cute-sneaker{
+  float: right;
+  margin-right: 250px;
 }
 
 .sneaker-title{
@@ -246,15 +269,12 @@ header{
 }
 
 .closing-banner{
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-bottom: 20px;
+display: inline;
 }
 
 .closing-text{
-  padding-left: 10px;
-  padding-top: 0px;
   color: rgb(128, 66, 0);
+  margin-left: 650px;
 }
 
 .shipping-and-terms{
